@@ -1,0 +1,25 @@
+/* Write your code here: */
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Child = Apply to direct child of left side */
+.box > p {
+    color: firebrick;
+}
+
+/* Ancestor selector - child of ul */
+ul .done {
+    color: blue;
+}
+
+/* Combined Selectors. No spaces etc */
+li.done {
+    color: seagreen;
+}
+
+/* Ancestor selector + combined selector */
+ul p.done {
+    font-size: 0.5rem;
+}
